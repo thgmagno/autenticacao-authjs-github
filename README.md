@@ -30,7 +30,7 @@ Este é um projeto prático demonstrando como implementar a autenticação de us
    ```
 
 3. **Configure a autenticação do GitHub**:
-   - Crie uma aplicação OAuth no [GitHub Developer Settings](https://github.com/settings/applications).
+   - Crie uma aplicação OAuth no [GitHub Developer Settings](https://github.com/settings/developers).
    - Defina a URL de redirecionamento como `http://localhost:3000/api/auth/callback/github`.
    - Copie seu **Client ID** e **Client Secret** e adicione-os no arquivo `.env.local`:
      ```
