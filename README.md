@@ -1,29 +1,19 @@
-# 📌 Autenticação com NextAuth.js e GitHub
+# Autenticação com NextAuth.js e GitHub
 
-Este projeto demonstra a implementação de autenticação com GitHub usando Auth.js em uma aplicação Next.js.
+Projeto demonstrando autenticação de usuários via GitHub usando Auth.js em uma aplicação Next.js. Após o login, são exibidas informações básicas da conta do GitHub, como nome de usuário, e-mail e repositórios públicos.
 
-## 🎯 Funcionalidades
-- **Autenticação com GitHub**: Login via conta do GitHub.
-- **Exibição de Dados do Usuário**: Nome, e-mail e repositórios públicos.
-- **Design Responsivo**: Interface adaptável para diversos dispositivos.
+## Funcionalidades
 
-## 🚀 Como Executar
-1. Clone este repositório:
-   ```sh
-   git clone https://github.com/thgmagno/github-auth
-   ```
-2. Instale as dependências:
-   ```sh
-   cd github-auth
-   npm install
-   ```
-3. Configure a autenticação do GitHub no arquivo `.env.local`:
-   ```sh
-   AUTH_GITHUB_ID=seu-client-id
-   AUTH_GITHUB_SECRET=seu-client-secret
-   ```
-4. Inicie o servidor:
-   ```sh
-   npm run dev
-   ```
-5. Acesse `http://localhost:3000`.
+- Autenticação via GitHub utilizando Auth.js.
+- Exibição de informações do perfil do usuário autenticado.
+- Interface responsiva e adaptável para diferentes dispositivos.
+
+## Detalhes
+
+A autenticação ocorre através do fluxo OAuth do GitHub, garantindo segurança e praticidade. O NextAuth.js facilita a integração e o gerenciamento de sessões, permitindo uma experiência fluida e segura.
+
+A interface foi desenvolvida com foco em usabilidade, utilizando boas práticas de design para tornar a interface intuitiva.
+
+Além disso, o protocolo **OAuth** utilizado no processo de autenticação permite que aplicações acessem recursos de terceiros sem expor credenciais do usuário. Esse modelo de autorização melhora a segurança e reduz riscos relacionados ao armazenamento de senhas.
+
+Da mesma forma que a autenticação foi feita via GitHub, o NextAuth.js também permite a integração com outros provedores conhecidos, como **Google, Facebook, Instagram, Discord, e outros**, ampliando as possibilidades de login social dentro da aplicação.
