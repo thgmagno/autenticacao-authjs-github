@@ -1,6 +1,6 @@
 # 📌 Autenticação com NextAuth.js e GitHub
 
-Este projeto demonstra a implementação de autenticação com GitHub usando NextAuth.js em uma aplicação Next.js.
+Este projeto demonstra a implementação de autenticação com GitHub usando Auth.js em uma aplicação Next.js.
 
 ## 🎯 Funcionalidades
 - **Autenticação com GitHub**: Login via conta do GitHub.
