@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'O poder e a facilidade de um sistema de login utilizando o Github para autenticação em uma aplicação Next.js',
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} pt-20 pb-32 antialiased`}
       >
         {children}
       </body>
