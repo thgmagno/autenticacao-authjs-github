@@ -44,7 +44,7 @@ function AppProvider({
   appApiUrl: string
 }) {
   useEffect(() => {
-    const hasKey = sessionStorage.getItem('app-api-fetcher')
+    const hasKey = sessionStorage.getItem(`app-api-fetcher-${appName}`)
 
     if (!hasKey) {
       const sendVisitData = async () => {
